@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.team_mastery.feedback.com</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        background-color:black;
+    }
+    .container{
+    max-width: 99%;
+    margin: 0px auto;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+
+    }
+    .head{
+    padding: 10px;    
+    }
+    .part-1{
+     background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(image_1.webp);  
+     background-repeat: no-repeat;
+     background-size: cover;
+     max-width: 100%;
+     height: 92vh; 
+     text-align:left;
+     color: #d299ff;
+     padding: 40px;
+    }
+    .part-1 h1{
+        font-weight: bold;
+        padding: 10px;
+        color:  #33e0ff;
+    }
+    
+    .part-1 h3{
+        font-weight: bold;
+        padding: 10px;
+    }
+    .spn-1{
+    color:  #33e0ff;
+    }
+.main{
+
+    border-radius: 10px;
+}
+.main h2{font-weight: bold;
+color: #33e0ff;
+}
+
+.input{
+padding: 12px;    
+height:20vh;
+background: transparent;
+font-family: 'Courier New', Courier, monospace;
+color: #33e0ff;
+border: solid 3px  #33e0ff;
+text-decoration: none;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.input:hover{
+border: solid 3px #33e0ff;
+}
+
+.send{
+padding: 5px;
+border: solid 3px  #33e0ff;
+border-radius: 5px;
+font-weight: bold;
+background-color: transparent;
+color: #d299ff;
+
+}
+.clear{
+padding: 5px;
+border: solid 3px  #33e0ff;
+border-radius: 5px;
+font-weight: bold;
+background-color: transparent;
+color: #d299ff;
+
+}
+
+.clear:hover{
+background-color: #33e0ff;
+transition: 1s;
+color: whitesmoke;
+}
+.send:hover{
+background-color: #33e0ff;
+transition: 1s;
+color: whitesmoke;
+}
+.foot{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+background-color: whitesmoke;
+color: black;
+padding: 15px;
+border-radius: 10px;
+font-weight: bold;
+
+}
+.buttons{
+padding: 10px;    
+}
+</style>
+</head>
+<body>
+   
+   <div class="container">
+    <div class="head">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Bootstrap" width="140px" height="68px">
+              </a>
+            </div>
+          </nav>
+    </div> 
+
+    <div class="part-1">
+        <br>
+        <h1>Hello,</h1>
+        <h3>Wellcome to the <br> feedback page of <span class="spn-1">Team mastery.</span></h3>
+        <br>
+         <div class="main">
+              <h2>Feedback here...</h2>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                
+                <input type="hidden" name="access_key" value="dfa4fc02-94b9-4fa2-8b5c-4c304dad8e89"> 
+                <input type="text" placeholder="Write your feedback:" class="input" name="Feedback" required> 
+                <div class="buttons">
+                    <br>
+                    <button type="submit" class="send">Send</button>
+                    <button type="reset" class="clear">Clear</button>
+                 </div>
+            </form>
+
+         </div>
+        
+        
+
+    </div>
+    
+    <div class="foot">
+        &copy; Designed by Md Umar.
+    </div>
+
+     
+    
+
+
+
+
+   </div>    
+
+
+
+
+
+
+
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="popper.js"></script>
+    <script src="jquery.js"></script>
+</body>
+</html>
